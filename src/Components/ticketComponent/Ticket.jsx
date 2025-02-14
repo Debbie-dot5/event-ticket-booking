@@ -27,7 +27,7 @@ const Ticket = () => {
 
           </div>
 
-          <div className="user-cont flex  md:max-w-[260px] h-[446px] p-[10px] items-center border border-[#24A0B5] absolute  top-[28%] left-[50%] transform  -translate-x-1/2 rounded-[12px] bg-[#041E23]">
+          <div className="user-cont flex  md:max-w-[260px] h-[446px] p-[10px] items-center border border-[#24A0B5] absolute  top-[10%] left-[50%] transform  -translate-x-1/2 rounded-[12px] bg-[#041E23]">
             <div className="w-full h-auto ">
               <div className="flex flex-col w-full  gap-[4px] justify-center items-center text-center">
                 <h2 className="text-white font-bold font-[Road rage] text-[24px] pt-6 ">
