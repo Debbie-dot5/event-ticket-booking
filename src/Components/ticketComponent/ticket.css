@@ -1,0 +1,13 @@
+.user-cont{
+border-radius: 16px;
+border: 1px solid #24A0B5;
+
+background: rgba(3, 30, 33, 0.10);
+
+backdrop-filter: blur(2px);
+flex-shrink: 0;
+}
+
+.progress{
+    
+}
