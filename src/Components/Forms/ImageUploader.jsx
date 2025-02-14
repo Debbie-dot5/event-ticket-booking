@@ -9,6 +9,10 @@ const ImageUploader = ({ onUpload }) => {
   const cloudName = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
   const uploadPreset = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET;
 
+  console.log("Cloud Name:", import.meta.env.VITE_CLOUDINARY_CLOUD_NAME);
+  console.log("Upload Preset:", import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET);
+
+
 
   const handleFileChange = async (e) => {
     const file = e.target.files[0];

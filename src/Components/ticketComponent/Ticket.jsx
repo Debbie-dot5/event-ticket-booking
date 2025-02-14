@@ -22,12 +22,10 @@ const Ticket = () => {
         </div>
 
         <div className=" relative w-full flex justify-center">
-          <div className=" w-full">
-          <img src="/ticket.svg" alt="ticket" className="w-full"  />
+          <img src="/bg.svg" alt="ticket" className="w-[300px] "  />
+          
 
-          </div>
-
-          <div className="user-cont flex  md:max-w-[260px] h-[446px] p-[10px] items-center border border-[#24A0B5] absolute  top-[10%] left-[50%] transform  -translate-x-1/2 rounded-[12px] bg-[#041E23]">
+          <div className="user-cont  flex w-[90%] md:max-w-[260px] min-h-[300px] h-[420px] md:h-[446px] p-[10px] items-center border border-[#24A0B5] absolute  top-[3%]    rounded-[12px] bg-[#041E23]">
             <div className="w-full h-auto ">
               <div className="flex flex-col w-full  gap-[4px] justify-center items-center text-center">
                 <h2 className="text-white font-bold font-[Road rage] text-[24px] pt-6 ">
@@ -46,11 +44,12 @@ const Ticket = () => {
               </div>
 
               {/* otthers  */}
-              <div className="w-[140px] h-[140px] mx-auto mt-[10px] mb-[8px] rounded-[12px] border-4 border-[#24A0B5]/50">{data.avatarUrl && (
+              <div className="w-[140px] h-[140px] mx-auto mt-[10px] mb-[8px] rounded-[12px] border-4 border-[#24A0B5]/50">
+              {data.avatarUrl && (
     <img src={data.avatarUrl} alt="Profile" className="w-full h-full object-cover" />
   )}</div>
 
-              <div className="bg-[#08343C] w-full h-auto text-white p-[4px]  rounded-[12px]">
+              <div className="bg-[#08343C] w-full h-auto min-h-[150px] text-white p-[4px]  rounded-[12px]">
                 {/* Grid for Name, Email, Ticket Type, and Ticket Count */}
                 <div className="grid grid-cols-2 gap-[4px]">
                   <div className="flex flex-col">
@@ -101,7 +100,7 @@ const Ticket = () => {
             </div>
           </div>
 
-          <div className="absolute bottom-[10%]">
+          <div className="absolute bottom-[3%]">
             <img src="/barcode.svg" alt="" />
           </div>
         </div>
