@@ -9,11 +9,21 @@ body{
     height: auto;
     background-size: cover;
     background-position: center;
-  
+}
 
 
+.head-ing {
+    font-family: "Road Rage", serif;
 
 }
 
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+}
+
+.p-font{
+    font-family: "Alatsi", sans-serif;
+    
+}
 
 

@@ -38,12 +38,12 @@ const Main = () => {
           <div className="section-one flex flex-col gap-[8px] self-stretch h-auto md:h-[200px] items-center p-[16px] md:p-[24px] rounded-[24px]">
             <div className="flex flex-col gap-[8px] items-center text-center">
               <h2 className="heading font-[Road rage] self-stretch text-[48px] md:text-[62px] leading-[62px] ">Techember Fest ’25</h2>
-              <p className="w-full md:w-[340px] text-[14px] md:text-[16px] font-normal text-[#FAFAFA]">
+              <p className="roboto-font w-full md:w-[340px] text-[14px] md:text-[16px] font-normal text-[#FAFAFA]">
                 Join us for an unforgettable experience at [Event Name]! Secure your spot now.
               </p>
             </div>
 
-            <div className="text-[#FAFAFA] flex flex-col md:flex-row md:items-center gap-[8px] md:gap-[16px] text-center">
+            <div className="roboto-font text-[#FAFAFA] flex flex-col md:flex-row md:items-center gap-[8px] md:gap-[16px] text-center">
               <p>📍 [Event Location]</p>
               <span className="hidden md:inline">|</span>
               <p>March 15, 2025 | 7:00 PM</p>
@@ -53,7 +53,7 @@ const Main = () => {
           <hr className="h-[4px] self-stretch bg-[#07373F]" />
 
           <div className="flex flex-col gap-[16px] self-stretch items-center p-[16px] rounded-[24px] border border-[#07373F] bg-[#052228] w-full">
-            <h3 className="w-full text-white">Select Ticket Type:</h3>
+            <h3 className="roboto-font w-full text-white">Select Ticket Type:</h3>
 
             <div className="flex flex-wrap gap-[12px] w-full justify-center">
               {Tickets.map((ticket, index) => (
@@ -66,9 +66,9 @@ const Main = () => {
                       : "bg-transparent border-[#197686] hover:bg-[#197686]/50"
                   }`}
                 >
-                  <h3 className="text-[#FAFAFA] text-lg font-bold">{ticket.price}</h3>
-                  <p className="text-[#FAFAFA] text-sm uppercase leading-[150%]">{ticket.name}</p>
-                  <p className="text-[#FAFAFA] text-xs">{ticket.date}</p>
+                  <h3 className="roboto-font text-[#FAFAFA] text-lg font-bold">{ticket.price}</h3>
+                  <p className="roboto-font text-[#FAFAFA] text-sm uppercase leading-[150%]">{ticket.name}</p>
+                  <p className="roboto-font text-[#FAFAFA] text-xs">{ticket.date}</p>
                 </div>
               ))}
             </div>

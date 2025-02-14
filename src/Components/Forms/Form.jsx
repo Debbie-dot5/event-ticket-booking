@@ -141,6 +141,7 @@ if (!formData.name) {
           type="email"
           name="email"
           id="email"
+          placeholder="hello@avioflagos.io"
           value={formData.email}
           onChange={handleChange}
            className="w-full  p-[12px] text-white  border  border-[#07373F] rounded-[12px] focus:outline-none focus:ring-2 focus:ring-[#24A0B5] focus:ring-opacity-50"

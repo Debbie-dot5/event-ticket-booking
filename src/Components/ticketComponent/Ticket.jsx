@@ -2,6 +2,7 @@ import "./ticket.css";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+
 const Ticket = () => {
   const location = useLocation();
   const data = location.state || {};
@@ -15,8 +16,8 @@ const Ticket = () => {
         <hr className="relative h-[4px] self-stretch bg-[#07373F] before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-[100%] before:bg-[#24A0B5] before:rounded-full" />
 
         <div className="text-center text-white">
-          <h3 className="text-xl font-bold">Your Ticket is Booked!</h3>
-          <p className="text-sm text-gray-300">
+          <h3 className="p-font text-[32px] font-normal ">Your Ticket is Booked!</h3>
+          <p className="roboto-font text-[16px] text-gray-300">
             You can download or check your email for a copy
           </p>
         </div>
@@ -28,7 +29,7 @@ const Ticket = () => {
           <div className="user-cont  flex w-[90%] md:max-w-[260px] min-h-[300px] h-[420px] md:h-[446px] p-[10px] items-center border border-[#24A0B5] absolute  top-[3%]    rounded-[12px] bg-[#041E23]">
             <div className="w-full h-auto ">
               <div className="flex flex-col w-full  gap-[4px] justify-center items-center text-center">
-                <h2 className="text-white font-bold font-[Road rage] text-[24px] pt-6 ">
+                <h2 className="head-ing text-white font-normal  text-[24px] pt-6 ">
                   Techember Fest ”25
                 </h2>
 
